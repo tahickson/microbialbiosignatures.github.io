@@ -1,27 +1,24 @@
 /* Apply Google Font */
 body {
   font-family: "Montserrat", sans-serif;
-  color: (white);
+  font-size: 1.6em;
   margin: 0;
   padding: 0;
-  background-color: rgb(
-    81,
-    12,
-    118
-  ); /* <-- Change this color to what you want */
+  background-color: rgb(81, 12, 118); /* Background color */
+  color: rgb(0, 0, 0); /* Ensures text is white globally */
 }
 
 /* Grid setup */
 .container {
   display: flex; /* Makes sidebar and content sit next to each other */
-  height: 100vh; /* Full height */
-  color: white;
+  height: 100vh; /* Full height of viewport */
 }
 
 /* Sidebar */
 .sidebar {
   background: rgb(131, 72, 217); /* Purple background */
-  width: 20%; /* Sidebar takes up 20% of the screen */
+  width: 20%; /* Adjust width as needed (default: 25%) */
+  min-width: 200px; /* Ensures sidebar is never too small */
   padding: 20px;
   color: white; /* Default font color for sidebar */
 }
@@ -44,12 +41,13 @@ body {
   text-decoration: none;
 }
 
-/* Main content (Now fills remaining space) */
+/* Main content */
 .content {
-  flex-grow: 1; /* This ensures it takes up the remaining width */
+  flex-grow: 1; /* Ensures it takes up the remaining space */
+  width: 80%; /* Adjust width as needed */
   padding: 20px;
   background: rgb(152, 153, 155);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 /* Responsive Design: On small screens, stack sidebar and content */
@@ -62,4 +60,26 @@ body {
   .content {
     width: 100%; /* Full width on small screens */
   }
+}
+
+/* Styling for the menu heading */
+.pure-menu-heading {
+  font-size: 1.8em; /* Adjust size as needed (e.g., 1.8em, 2em for larger) */
+  font-weight: bold;
+  text-transform: uppercase; /* Optional: Makes it all uppercase */
+  padding: 10px 0; /* Adds spacing above and below */
+  text-align: center; /* Centers the text */
+}
+
+/* Banner Image Styling */
+.header {
+  width: 100%;
+  text-align: center;
+  background-color: #f8f9fa; /* Light background for contrast */
+  padding: 10px 0;
+}
+
+.banner-image {
+  max-width: 100%; /* Ensure it scales properly */
+  height: auto; /* Maintain aspect ratio */
 }
