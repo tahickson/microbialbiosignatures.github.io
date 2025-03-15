@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Microbial Biosignatures Project</title>
+
+    <!-- Pure.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+      integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+    />
+
+    <!-- Custom Styles (Now in styles.css) -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Header with the banner image -->
+    <header class="header">
+      <img
+        src="images/NewLogo.png"
+        alt="Microbial Biosignatures Project Logo"
+        class="banner-image"
+      />
+    </header>
+
+    <!-- Creating the side-by-side layout -->
+    <div class="container">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <div class="pure-menu">
+          <span class="pure-menu-heading">MENU</span>
+          <ul class="pure-menu-list">
+            <li class="pure-menu-item">
+              <a href="about.html" class="pure-menu-link">About</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="science.html" class="pure-menu-link">The Science</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="team.html" class="pure-menu-link">Contributors</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="contact.html" class="pure-menu-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="content">
+        <h1>About the Project</h1>
+        <p>
+          This project began as a Microsoft Access database to organize and
+          track field locations, images, geochemical data, and other aspects of
+          microbialite samples collected by
+          <a href="team.html"> Hickson and Bartley</a>. As this resource grew we
+          realized that an open-source database for the scientific community
+          could be used to answer important
+          <a href="science.html">cientific questions</a>s about early life on
+          Earth, life on other planets, evolution, and interpretations of
+          paleoecology in the rock record.
+        </p>
+
+        <p>
+          At the same time, it became clear that microbialite sedimentologists
+          lacked a common, non-genetic, descriptive vocabulary for these
+          important sedimentary features. That is until 2020, when Stan Awramik
+          and Kath Grey pulished their
+          <a
+            href="https://www.dmp.wa.gov.au/Geological-Survey/Handbook-for-the-study-and-26950.aspx"
+            >Handbook for the Study of Microbialites</a
+          >. This free, online text provided an ideal starting point for the
+          creation of a controlled vocabulary that geologists could use to
+          describe a wide range of microbialites. We fully integrated their
+          descriptive scheme into our database. It was at this point that we
+          began to consider developing an open-source version for the geoscience
+          community.
+        </p>
+
+        <h2>What we have done, where we're going</h2>
+
+        <table class="pure-table pure-table-bordered">
+          <thead>
+            <tr>
+              <th>Task(s)</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="pure-table-odd">
+              <td>
+                Develop a prototype MS Access database that incorporates Awramik
+                and Grey's (2020) classification into the description of
+                microbialites from field localities and the literature.
+              </td>
+              <td><b>Complete</b></td>
+            </tr>
+            <tr>
+              <td>
+                Database back-end: migrate prototype MS Access schema and tables
+                to PostgreSQL, an open-source relational database format
+              </td>
+              <td><b>Complete</b></td>
+            </tr>
+            <tr class="pure-table-odd">
+              <td>
+                Database front-end: convert prototype MS Access forms and
+                queries to use the PostgreSQL back-end. At this point we are
+                keeping the front-end development in MS Access to allow the
+                non-computer science team members to contribute. This will later
+                be replaced by a web-based (React) front-end. Many of the
+                pass-through queries created in this stage will transfer to
+                Javascript-based code later.
+              </td>
+              <td>In progress</td>
+            </tr>
+            <tr>
+              <td>
+                Migrate back-end to Jetstream2 cloud server. Link MS Access
+                front-end to this back-end and test.
+              </td>
+              <td>In progress</td>
+            </tr>
+            <tr class="pure-table-odd">
+              <td>
+                Share MS Access front-end with small user group to get feedback
+                on the database. What is working? What needs improvement? What
+                features are missing?
+              </td>
+              <td>May/June 2025</td>
+            </tr>
+            <tr>
+              <td>
+                Begin development of Javascript and React front-end with
+                computer science team members and undergraduate computer science
+                students.
+              </td>
+              <td>Summer 2025</td>
+            </tr>
+            <tr class="pure-table-odd">
+              <td>
+                Submit NASA and/or NSF proposals to support further development,
+                integration with other paleobiology databases (API development),
+                and improvements to schema and front-end.
+              </td>
+              <td>Summer 2025</td>
+            </tr>
+            <tr>
+              <td>
+                Share initial database with scientific community at the
+                Geological Society of American National Meeting to get feedback
+                and encourage participation.
+              </td>
+              <td>Octobere 2025</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
