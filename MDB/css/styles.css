@@ -83,3 +83,6 @@ body {
   max-width: 100%; /* Ensure it scales properly */
   height: auto; /* Maintain aspect ratio */
 }
+.pure-table {
+  font-size: 12pt; /* Adjust as needed */
+}
