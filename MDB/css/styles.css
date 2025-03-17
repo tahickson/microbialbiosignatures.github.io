@@ -1,10 +1,10 @@
 /* Apply Google Font */
 body {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.6em;
+  font-size: 1.2em;
   margin: 0;
   padding: 0;
-  background-color: rgb(81, 12, 118); /* Background color */
+  background: rgb(152, 153, 155); /* Background color */
   color: rgb(0, 0, 0); /* Ensures text is white globally */
 }
 
@@ -16,7 +16,7 @@ body {
 
 /* Sidebar */
 .sidebar {
-  background: rgb(131, 72, 217); /* Purple background */
+  background: rgb(79, 2, 193); /* Purple background */
   width: 20%; /* Adjust width as needed (default: 25%) */
   min-width: 200px; /* Ensures sidebar is never too small */
   padding: 20px;
@@ -55,7 +55,6 @@ body {
   .container {
     flex-direction: column; /* Stack sidebar above content */
   }
-
   .sidebar,
   .content {
     width: 100%; /* Full width on small screens */
@@ -64,7 +63,7 @@ body {
 
 /* Styling for the menu heading */
 .pure-menu-heading {
-  font-size: 1.8em; /* Adjust size as needed (e.g., 1.8em, 2em for larger) */
+  font-size: 1.5em; /* Adjust size as needed (e.g., 1.8em, 2em for larger) */
   font-weight: bold;
   text-transform: uppercase; /* Optional: Makes it all uppercase */
   padding: 10px 0; /* Adds spacing above and below */
