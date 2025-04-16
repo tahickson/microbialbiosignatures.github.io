@@ -14,12 +14,18 @@ body {
   height: 100vh; /* Full height of viewport */
 }
 
+.container {
+  display: flex;
+  align-items: flex-start; /* Keeps sidebar and content aligned at the top */
+}
+
 /* Sidebar */
 .sidebar {
   background: rgb(79, 2, 193); /* Purple background */
   width: 200px; /* Adjust width as needed (default: 25%) */
   min-width: 200px; /* Ensures sidebar is never too small */
   padding: 20px;
+  height: 800px
   color: white; /* Default font color for sidebar */
 }
 
@@ -41,16 +47,23 @@ body {
   text-decoration: none;
 }
 
-/* Main content */
+/* Main content: fixed width, flexible height */
 .content {
-  /* flex-grow: 1; /* Ensures it takes up the remaining space */
-  width: 900px; /* Adjust width as needed */
+  width: 900px; /* Fixed width */
   padding: 20px;
   background: rgb(211, 225, 252);
   color: rgb(0, 0, 0);
+  box-sizing: border-box;
 }
 
-/* Responsive Design: On small screens, stack sidebar and content */
+/* Optional: Ensure body doesn't interfere with height */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -59,8 +72,9 @@ body {
   .sidebar,
   .content {
     width: 100%;
-    max-width: 900px; /* ⬅️ This limits content width */
-    margin: 0 auto; /* ⬅️ This centers it */
+    max-width: 900px;
+    margin: 0 auto;
+    height: auto; /* Let height be flexible on small screens */
   }
 }
 
