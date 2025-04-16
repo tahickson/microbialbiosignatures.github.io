@@ -1,0 +1,45 @@
+---
+layout: default
+title: "The Microbial Biosignatures Project: Our Team"
+---
+
+<h1>Our Team</h1>
+
+<h2>Faculty</h2>
+<ul>
+  <li>
+    Thomas Hickson, Department of Earth, Environment, and Society,
+    University of St. Thomas
+  </li>
+  <li>
+    Julie Bartley, Department of Environment, Geography, and Earth
+    Sciences, Gustavus Adolphus College
+  </li>
+  <li>
+    Ashley Manning-Berg, Geology Program, San Diego Mesa College
+  </li>
+  <li>
+    Pakeeza Akram, Department of Computer and Information Sciences,
+    University of St. Thomas
+  </li>
+  <li>
+    Tommy Marrinan, Department of Computer and Information Sciences,
+    University of St. Thomas
+  </li>
+</ul>
+
+<h2>Undergraduate Researchers (to date)</h2>
+<ul>
+  <li>
+    Shreya Jaiswal, Department of Computer and Information Sciences,
+    University of St. Thomas
+  </li>
+  <li>
+    Anna Curtler, Department of Computer and Information Sciences,
+    University of St. Thomas
+  </li>
+  <li>
+    Will Haldane, Department of Computer and Information Sciences,
+    University of St. Thomas
+  </li>
+</ul>
