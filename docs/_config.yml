@@ -1,0 +1,18 @@
+title: The Microbial Biosignatures Project
+description: A research collaboration exploring microbialite biosignatures
+baseurl: "" # Leave blank if your site is at the root of a custom domain
+url: "https://microbialbiosignatures.github.io" # Your GitHub Pages URL
+
+# Build settings
+permalink: pretty
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+  input: GFM
+
+# Exclude these files from the build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - OLD_HTML/
