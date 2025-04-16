@@ -44,7 +44,7 @@ body {
 /* Main content */
 .content {
   /* flex-grow: 1; /* Ensures it takes up the remaining space */
-  width: 825px; /* Adjust width as needed */
+  width: 900px; /* Adjust width as needed */
   padding: 20px;
   background: rgb(211, 225, 252);
   color: rgb(0, 0, 0);
