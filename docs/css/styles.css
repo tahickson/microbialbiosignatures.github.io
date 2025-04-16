@@ -9,10 +9,6 @@ body {
 }
 
 /* Grid setup */
-.container {
-  display: flex; /* Makes sidebar and content sit next to each other */
-  height: 100vh; /* Full height of viewport */
-}
 
 .container {
   display: flex;
