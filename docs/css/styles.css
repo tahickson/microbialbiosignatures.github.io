@@ -59,7 +59,7 @@ body {
   .sidebar,
   .content {
     width: 100%;
-    max-width: 600px; /* ⬅️ This limits content width */
+    max-width: 900px; /* ⬅️ This limits content width */
     margin: 0 auto; /* ⬅️ This centers it */
   }
 }
