@@ -17,8 +17,8 @@ body {
 /* Sidebar */
 .sidebar {
   background: rgb(79, 2, 193); /* Purple background */
-  width: 150px; /* Adjust width as needed (default: 25%) */
-  min-width: 150px; /* Ensures sidebar is never too small */
+  width: 200px; /* Adjust width as needed (default: 25%) */
+  min-width: 200px; /* Ensures sidebar is never too small */
   padding: 20px;
   color: white; /* Default font color for sidebar */
 }
