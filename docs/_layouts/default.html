@@ -17,11 +17,12 @@
   </head>
   <body>
     {% include banner.html %}
+    <main class="container">
+      <div class="container">
+        {% include sidebar.html %}
 
-    <div class="container">
-      {% include sidebar.html %}
-
-      <div class="content">{{ content }}</div>
-    </div>
+        <div class="content">{{ content }}</div>
+      </div>
+    </main>
   </body>
 </html>
