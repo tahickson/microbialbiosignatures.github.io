@@ -1,7 +1,7 @@
 title: The Microbial Biosignatures Project
 description: A research collaboration exploring microbialite biosignatures
-baseurl: "" # Leave blank if your site is at the root of a custom domain
-url: "https://microbialbiosignatures.github.io" # Your GitHub Pages URL
+baseurl: "/microbialbiosignatures.github.io"
+url: "https://tahickson.github.io"
 
 # Build settings
 permalink: pretty
