@@ -86,12 +86,13 @@ html, body {
 /* Banner Image Styling */
 .header {
   width: 100%;
-  text-align: center;
+  text-align: left;
   background-color: #f8f9fa; /* Light background for contrast */
   padding: 10px 0;
 }
 
 .banner-image {
+  margin-left: 0;
   max-width: 100%; /* Ensure it scales properly */
   height: auto; /* Maintain aspect ratio */
 }
