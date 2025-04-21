@@ -10,6 +10,16 @@ kramdown:
   parse_block_html: true
   input: GFM
 
+  # Help functionality
+  theme: just-the-docs
+
+  # Optional: Customization
+  title: "Microbial Biosignatures Help Pages"
+  description: "Documentation for this project"
+
+  # Optional: Enable search (Lunr.js)
+  search_enabled: true
+
 # Exclude these files from the build
 exclude:
   - README.md
