@@ -5,6 +5,10 @@ title: "The Microbial Biosignatures Project: Help"
 
 <h1>Help using the database</h1>
 
+<p>
+  👉 <a href="{{ '/help/help_documentation/' | relative_url }}"><strong>Jump to Help Now</strong></a>
+</p>
+
 <h2>The Hierarchy of Microbialite Traits</h2>
 
 <p>
@@ -38,6 +42,5 @@ title: "The Microbial Biosignatures Project: Help"
 <li><b>Megastructure Data:</b> Descriptive traits of megastructures, latitude, longitude (WGS84), and other aspects that describe the microbialite over large (>1m) sizes as outlined in The Handbook.</li>
 <li><b>Macrostructure Data:</b> Descriptive traits of macrostructures as outlined in The Handbook</li>
 <li><b>Mesostructure Data:</b> Descriptive traits of mesostructures as outlined in The Handbook</li>
-<li><b>Microstructure Data:</b> Descriptive traits of microstructures as outlined in The Handbook/li>
+<li><b>Microstructure Data:</b> Descriptive traits of microstructures as outlined in The Handbook</li>
 </ol>
-</p>
