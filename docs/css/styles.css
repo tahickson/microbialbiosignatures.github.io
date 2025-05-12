@@ -99,3 +99,11 @@ html, body {
 .pure-table {
   font-size: 12pt; /* Adjust as needed */
 }
+hr {
+  border: none;
+  border-top: 3px dotted #999;
+  color: #999;
+  background-color: #fff;
+  height: 3px;
+  margin: 20px 0;
+}
