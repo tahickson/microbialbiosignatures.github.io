@@ -25,7 +25,7 @@ It <i>is</i> that place to go to find out information about our progress on the 
   They require thorough, non-genetic descriptions that we can then interpret
   in terms of physical, chemical and biological processes.
   For this reason, our database makes extensive use of
-  <a href="upload_files/Handbook for the study and description of microbia.pdf">
+  <a href="upload_files/Handbook for the study and description of microbialites.pdf">
     Handbook for the Study of Microbialites (Grey & Awramik, 2020)
   </a>,
   the first detailed non-genetic classification of microbialites to date.
