@@ -13,7 +13,7 @@ It <i>is</i> that place to go to find out information about our progress on the 
 <p>
   We will be hosting a <i>listening session on the development of an open-source microbialites database</i> at the M-FED conference, September 30-October 3, in Hannover, Germany. <a href="images/mfedflyer.png">See the flyer HERE.</a>
 </p>
-
+<hr style="border: none; height: 3px; background-color #000000 margin: 30px 30px;">
 <p>
   We are a group of geoscientists working to create a database of
   microbialite biosignatures. This includes:
