@@ -8,7 +8,7 @@ title: "The Microbial Biosignatures Project"
 <p>
 It <i>is</i> that place to go to find out information about our progress on the project and, eventually, it will be one way to access it.
 </p>
-
+<hr style="border: none; height: 3px; background-color #000000 margin: 30px 30px;">
 <h2>Join us at <a href="https://konferenz.uni-hannover.de/event/135/page/68-home">M-FED 2025, Microbialites: Formation, Evolution, Diagenesis!!</a></h2>
 <p>
   We will be hosting a <i>listening session on the development of an open-source microbialites database</i> at the M-FED conference, September 30-October 3, in Hannover, Germany. <a href="images/mfedflyer.png">See the flyer HERE.</a>
