@@ -4,7 +4,10 @@ title: "The Microbial Biosignatures Project"
 ---
 
 <h1>Welcome!</h1>
-
+<h2>This website is <i>not</i> the entry point for the database</h2>
+<p>
+It <i>is</i> that place to go to find out information about our progress on the project and, eventually, it will be one way to access it.
+</p>
 <p>
   We are a group of geoscientists working to create a database of
   microbialite biosignatures. This includes:
@@ -22,8 +25,8 @@ title: "The Microbial Biosignatures Project"
   They require thorough, non-genetic descriptions that we can then interpret
   in terms of physical, chemical and biological processes.
   For this reason, our database makes extensive use of
-  <a href="https://www.dmp.wa.gov.au/Geological-Survey/Handbook-for-the-study-and-26950.aspx">
-    Handbook for the Study of Microbialites (Awramik and Grey, 2020)
+  <a href="upload_files/Handbook for the study and description of microbia.pdf">
+    Handbook for the Study of Microbialites (Grey & Awramik, 2020)
   </a>,
   the first detailed non-genetic classification of microbialites to date.
 </p>
