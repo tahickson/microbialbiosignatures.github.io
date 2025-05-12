@@ -1,0 +1,23 @@
+title: "Microbial Biosignatures Help Pages"
+description: "Documentation for this project"
+
+source: docs
+
+baseurl: "/microbialbiosignatures.github.io"
+url: "https://tahickson.github.io"
+
+theme: just-the-docs
+permalink: pretty
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+  input: GFM
+
+search_enabled: true
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - OLD_HTML/

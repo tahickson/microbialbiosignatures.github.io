@@ -1,0 +1,101 @@
+/* Apply Google Font */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  background: rgb(152, 153, 155); /* Background color */
+  color: rgb(0, 0, 0); /* Ensures text is white globally */
+}
+
+/* Grid setup */
+
+.container {
+  display: flex;
+  align-items: flex-start; /* Keeps sidebar and content aligned at the top */
+}
+
+/* Sidebar */
+.sidebar {
+  background: rgb(79, 2, 193); /* Purple background */
+  width: 200px; /* Adjust width as needed (default: 25%) */
+  min-width: 200px; /* Ensures sidebar is never too small */
+  padding: 20px;
+  height: 800px
+  color: white; /* Default font color for sidebar */
+}
+
+/* Make menu text and links white */
+.sidebar .pure-menu-heading,
+.sidebar .pure-menu-link {
+  color: white !important; /* Forces white text */
+}
+
+/* Remove Pure.css default blue background on active links */
+.sidebar .pure-menu-link:hover,
+.sidebar .pure-menu-link:focus {
+  background-color: rgba(255, 255, 255, 0.2); /* Light white hover effect */
+  color: white !important;
+}
+
+/* Remove underline from links */
+.sidebar .pure-menu-link {
+  text-decoration: none;
+}
+
+/* Main content: fixed width, flexible height */
+.content {
+  width: 956px; /* Fixed width */
+  padding: 20px;
+  background: rgb(211, 225, 252);
+  color: rgb(0, 0, 0);
+  box-sizing: border-box;
+}
+
+/* Optional: Ensure body doesn't interfere with height */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar,
+  .content {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    height: auto; /* Let height be flexible on small screens */
+  }
+}
+
+/* Styling for the menu heading */
+.pure-menu-heading {
+  font-size: 1.5em; /* Adjust size as needed (e.g., 1.8em, 2em for larger) */
+  font-weight: bold;
+  text-transform: uppercase; /* Optional: Makes it all uppercase */
+  padding: 10px 0; /* Adds spacing above and below */
+  text-align: center; /* Centers the text */
+}
+
+/* Banner Image Styling */
+.header {
+  width: 100%;
+  text-align: left;
+  background-color: #f8f9fa; /* Light background for contrast */
+  padding: 10px 0;
+}
+
+.banner-image {
+  margin-left: 0;
+  max-width: 100%; /* Ensure it scales properly */
+  height: auto; /* Maintain aspect ratio */
+}
+.pure-table {
+  font-size: 12pt; /* Adjust as needed */
+}
