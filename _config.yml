@@ -6,7 +6,6 @@ source: docs
 baseurl: "/microbialbiosignatures.github.io"
 url: "https://tahickson.github.io"
 
-theme: just-the-docs
 permalink: pretty
 markdown: kramdown
 
