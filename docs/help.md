@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "The Microbial Biosignatures Project: Help"
+permalink: /help/
 ---
 
 <h1>Help using the database</h1>

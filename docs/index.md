@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "The Microbial Biosignatures Project"
+permalink: /
 ---
 
 <h1>Welcome!</h1>

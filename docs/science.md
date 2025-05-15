@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "The Microbial Biosignatures Project: The Science"
+permalink: /science/
 ---
 
 <h1>Scientific Questions</h1>

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "The Microbial Biosignatures Project: Contact Us"
+permalink: /contact/
 ---
 
 <h1>Want more information? Contact us</h1>

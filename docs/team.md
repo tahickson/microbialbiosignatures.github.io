@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "The Microbial Biosignatures Project: Our Team"
+permalink: /team/
 ---
 
 <h1>Our Team</h1>
