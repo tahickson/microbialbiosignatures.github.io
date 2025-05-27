@@ -1,5 +1,8 @@
+To view website before uploading to web:
 NAVIGATE TO: cd /Users/tahickson/Documents/MicrobialitesDatabase/tahickson.github.io
 INSTALL DEPENDENCIES: bundle install
 START THE SERVER: bundle exec jekyll serve
 OPEN THE SITE: http://127.0.0.1:4000/microbialbiosignatures.github.io/
 Press Ctrl+C to stop the server.
+
+USE: ctrl + shift + j
