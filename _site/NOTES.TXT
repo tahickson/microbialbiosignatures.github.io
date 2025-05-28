@@ -1,3 +1,4 @@
+To view website before uploading to web:
 NAVIGATE TO: cd /Users/tahickson/Documents/MicrobialitesDatabase/tahickson.github.io
 INSTALL DEPENDENCIES: bundle install
 START THE SERVER: bundle exec jekyll serve
