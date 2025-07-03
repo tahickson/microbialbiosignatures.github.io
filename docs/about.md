@@ -132,10 +132,13 @@ permalink: /about/
   </tbody>
 </table>
 
-<h1>Funding</h1>
+<h1>Funding and Other Support</h1>
 
-<p>To date this work has been funded by the:</p>
+<p>To date this work has been supported by the:</p>
 <ul>
+  <li>
+    The National Science Foundation's <a href = "https://access-ci.org/">Access Ecosystem</a> and <a href = "https://docs.jetstream-cloud.org/">JetStream2</a> cloud computing resources for scientists
+  </li>
   <li>
     University of St. Thomas Department of Earth, Environment, and
     Society and the Undergraduate Research Opportunities (UROP) program
