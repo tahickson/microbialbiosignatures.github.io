@@ -50,14 +50,14 @@ permalink: /about/
         and Grey's (2020) classification into the description of
         microbialites from field localities and the literature.
       </td>
-      <td><b>Complete</b></td>
+      <td>COMPLETE</td>
     </tr>
     <tr>
       <td>
         Database back-end: migrate prototype MS Access schema and tables
         to PostgreSQL, an open-source relational database format
       </td>
-      <td><b>Complete</b></td>
+      <td>COMPLETE</td>
     </tr>
     <tr class="pure-table-odd">
       <td>
@@ -84,7 +84,7 @@ permalink: /about/
         on the database. What is working? What needs improvement? What
         features are missing?
       </td>
-      <td>May/June 2025</td>
+      <td>IN PROGRESS</td>
     </tr>
     <tr>
       <td>
@@ -102,11 +102,17 @@ permalink: /about/
       </td>
       <td>September 2025</td>
     </tr>
-            <tr class="pure-table-odd">
+    <tr>
       <td>
         Workshop at Microbialites: Formation, Evolution, Diagenesis (M-FED) 2025 Conference, Hannover, Germany: <i>A Listening Session on the Development of an Open-Source Microbialites Database</i>
       </td>
-      <td>October 2025</td>
+      <td>Early October 2025</td>
+    </tr>
+    <tr class="pure-table-odd">
+      <td>
+        Workshop at GSA Connects, San Antonio <i>An Open-Source Microbialites Database for the Geoscience Community: Mini-workshop and Listening Session</i>
+      </td>
+      <td>Late October 2025</td>
     </tr>
     <tr>
       <td>
