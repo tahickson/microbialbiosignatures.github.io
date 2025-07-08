@@ -59,6 +59,9 @@ permalink: /team/
     Pablo Suarez Gonzalez, Universidad Complutense de Madrid, Madrid, Spain
   </li>
   <li>
+    Emma Quijada van den Berghe, Universidad de Oviedo, Oviedo, Spain
+  </li>
+  <li>
     Pierre Sansjofre, Muséum National d'Histoire Naturelle, Paris, France
   </li>
   <li>
