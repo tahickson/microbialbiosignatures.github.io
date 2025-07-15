@@ -4,7 +4,7 @@ title: "The Microbial Biosignatures Project: About"
 permalink: /about/
 ---
 
-<h1>About the Project</h1>
+<h1>About this Project</h1>
 
 <p>
   This project began as a Microsoft Access database to organize and
