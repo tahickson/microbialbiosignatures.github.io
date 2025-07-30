@@ -17,7 +17,7 @@ permalink: /help/
   <a
     href="https://www.dmp.wa.gov.au/Geological-Survey/Handbook-for-the-study-and-26950.aspx"
   >
-    Handbook for the Study of Microbialites (Awramik and Grey, 2020)
+    Handbook for the Study of Microbialites (Grey and Awramik, 2020)
   </a>  (referred to as "The Handbook" throughout this site)
   uses a hierarchical structure to describe microbialites in the rock record. This structure may not be familiar to many microbialite sedimentologists and we strongly encourage you to download The Handbook and use it as a reference. Our database avoids the use of Linnaean names, but it is possible to enter these into textboxes for cross-reference purposes. 
   The basic, hierarchical structure emphasizes the multiscale nature of microbialite sedimentary
